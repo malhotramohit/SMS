@@ -8,6 +8,7 @@ public class TeacherCRUDServiceImpl implements TeacherCRUDService {
 
 	private static ArrayList<Teacher> teacherList = new ArrayList<Teacher>(10);
 
+	// create/save an object of class Teacher
 	@Override
 	public void save(Teacher teacherObj) {
 		teacherList.add(teacherObj);
