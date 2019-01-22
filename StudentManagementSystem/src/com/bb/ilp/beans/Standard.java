@@ -2,7 +2,9 @@ package com.bb.ilp.beans;
 
 import java.util.ArrayList;
 
+//creating bean
 public class Standard {
+	
 	
 	private int standardNumber;
 	private int numberOfStudents;
